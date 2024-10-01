@@ -1,0 +1,31 @@
+@mixin screenMargin {
+  padding: 0px 24px;
+}
+
+@mixin fontFamily {
+  font: normal normal 500 14px/18px "Quicksand", sans-serif;
+}
+@mixin font20() {
+  font-size: 20px; /* Font size */
+  line-height: 24px; /* Line height */
+}
+@mixin font16() {
+  font-size: 16px; /* Font size */
+  line-height: 20px; /* Line height */
+}
+
+@mixin font14() {
+    font-size: 14px; /* Font size */
+    line-height: 18px; /* Line height */
+}
+
+@mixin flexCenter(){
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+@mixin flexSpacBetween(){
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}

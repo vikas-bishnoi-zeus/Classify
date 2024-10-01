@@ -1,0 +1,37 @@
+@import "../../../mixins.scss";
+
+.maintop {
+  background-color: #3c4e62;
+  @include screenMargin();
+  height: 48px; 
+  @include flexSpacBetween();
+  >.backArrow {
+    cursor: pointer;
+    font-size: 24px;
+    color: #3FD28B;
+  }
+  >.buttons button {
+    margin-left: 16px; /* Change margin to 16px for distance between buttons */
+    background-color: #3fd28b; /* Set button background color */
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 90px; /* Set button width to 90px */
+    height: 28px; /* Set button height to 28px */
+  
+    /* Typography settings */
+    text-align: center;
+    font: normal normal 500 16px/20px 'Quicksand', sans-serif;
+    letter-spacing: 0px;
+    text-transform: uppercase; /* Transform text to uppercase */
+  }
+  .heading-text {
+    text-align: center;
+    @include fontFamily();
+    @include font16();
+    letter-spacing: 0px;
+    color: #FFFFFF;  /* Set text color to white */
+    opacity: 1;
+  }
+  
+}

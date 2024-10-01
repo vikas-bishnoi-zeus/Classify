@@ -1,0 +1,33 @@
+@import "../../../mixins.scss";
+
+.subHeading {
+    height: 7vh;
+    margin: 0px auto;
+
+    @include flexCenter();
+    // display: flex;
+    justify-content: space-between;
+
+    >.subHeadingName {
+
+        @include fontFamily();
+        @include font20();
+
+        >span {
+            font-size: 12px;
+            color: grey;
+        }
+    }
+
+    >.subHeadingButtons {
+        >button {
+            // @include resetCss();
+            background-color: #E2F8FE;
+            padding: 8px 15px;
+            color: #1F2834;
+            border: 1px solid #00000029;
+            box-shadow: 2px 2px 5px #00000029;
+            margin-left: 15px;
+        }
+    }
+}

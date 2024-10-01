@@ -1,0 +1,11 @@
+@import "../../../mixins.scss";
+.main-content{
+    background-color: #EEEEEE;
+    // background-color: black;
+    // width: 100%;
+    @include screenMargin();
+
+    >*{
+        margin-bottom: 10px;
+    }
+}
