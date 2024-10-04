@@ -3,7 +3,7 @@
 }
 
 @mixin fontFamily {
-  font: normal normal 500 14px/18px "Quicksand", sans-serif;
+  font: normal normal 600 14px/18px "Quicksand", sans-serif;
 }
 @mixin font20() {
   font-size: 20px; /* Font size */
@@ -17,6 +17,10 @@
 @mixin font14() {
     font-size: 14px; /* Font size */
     line-height: 18px; /* Line height */
+}
+@mixin font12() {
+  font-size: 12px; /* Font size */
+  line-height: 16px; /* Line height */
 }
 
 @mixin flexCenter(){
